@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 0;
+    background: linear-gradient(180deg, #D6F4ED 0%, #87BAC3 100% );
+    color: #473472;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    font-family: 'Tinos', serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: rgba(225,225,225,0.02);
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+    border: 1px solid rgba(225,225,225,0.04);
+}
+
+header {
+    margin-bottom: 12px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #0C2B4E;
+}
+
+.subtitle {
+    margin: 6px 0 0;
+    color: var(--muted);
+}
+
+.lyrics {
+    margin-top: 16px;
+    padding-right: 12px;
+    max-height: 65vh;
+    overflow-y: auto;
+    border-left: 2px solid rgba(225,225,225,0.05);
+    padding-left: 14px;
+    line-height: 1.6;
+}
+
+.verse {
+    padding: 12px 0;
+    border-bottom: 1 px solid rgba(225,225,225,0.05);
+}
+
+.verse:last-child {
+    border-bottom: none;
+}
+
+.verse p{
+    margin: 0 0 6px;
+    font-family: "Courier New", monospace;
+    white-space: pre-wrap;
+}
+
+footer {
+    margin-top: 18px;
+    text-align: center;
+    color: #0C2B4E;
+    font-size:  0.9rem;
+}
